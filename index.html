@@ -28,6 +28,7 @@
           <a class="navigation-logo" href="./index.html"
             >Web<span class="navigation-logo-raleway">Studio</span></a
           >
+
           <ul class="header-navigation-menu">
             <li><a class="link current" href="./index.html">Studio</a></li>
             <li><a class="link" href="">Portfolio</a></li>
@@ -50,6 +51,71 @@
             </li>
           </ul>
         </address>
+        <button class="mob-menu-open-btn" type="button">
+          <svg class="navigation-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-navicons_menu"></use>
+          </svg>
+        </button>
+        <div class="mob-menu">
+          <button class="mob-menu-close-btn" type="button">
+            <svg class="mob-menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <div class="mob-menu-info is-open">
+            <ul class="mob-navigation-menu">
+              <li><a class="link current" href="./index.html">Studio</a></li>
+              <li><a class="link" href="">Portfolio</a></li>
+              <li><a class="link" href="">Contacts</a></li>
+            </ul>
+            <address class="mob-contacts">
+              <ul class="mob-contacts-list">
+                <li class="mob-contacts-list-item">
+                  <a
+                    class="mob-contacts-item-address"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="mob-contacts-list-item">
+                  <a class="mob-contacts-item-address" href="tel:+110001111111"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="mob-socials">
+              <li class="mob-socials-item">
+                <a class="mob-socials-link" href="#">
+                  <svg class="mob-social-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-socials-item">
+                <a class="mob-socials-link" href="#">
+                  <svg class="mob-social-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-socials-item">
+                <a class="mob-socials-link" href="#">
+                  <svg class="mob-social-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-socials-item">
+                <a class="mob-socials-link" href="#">
+                  <svg class="mob-social-icons" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -589,8 +655,9 @@
               value="true"
               name="user-privacy"
             />
-            <label for="user-privacy" class="checkbox-text"
-              ><span class="checkmark">
+
+            <label for="user-privacy" class="checkbox-text">
+              <span class="checkmark">
                 <svg class="checkmark-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
