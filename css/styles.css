@@ -1111,7 +1111,7 @@ ul {
         position: absolute;
         top: 30%;
         right: 3%;
-        margin-right: 80px;
+        margin-right: auto;
     }
     .subscribe-email {
         width: 264px;
